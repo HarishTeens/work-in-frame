@@ -1608,9 +1608,8 @@ C30.2,22.3,30.5,22.8,30.7,23.3z"
                             <div class="navigation__left-background">
                                 <div class="row">
                                     <div class="navigation__links-wrapper">
-                                        <div><a data-id="7" data-transition="menu" href="">Home</a></div>
-                                        <div><a data-id="24" data-transition="menu" href="">Services</a></div>
-                                        <div><a data-id="7" data-transition="menu" href="">Testimonials</a></div>
+                                        <div><span style="cursor: pointer;" onclick="gotoLink('/index.html')"><a>Home</a></span></div>
+                                        <div><span style="cursor: pointer;" onclick="gotoLink('/services.html')"><a>Services</a></span></div>
                                     </div>
                                     <div class="navigation__image-wrapper">
                                         <div class="inner-wrapper">
@@ -1792,12 +1791,12 @@ C30.2,22.3,30.5,22.8,30.7,23.3z"
                         <div class="footer__row">
                             <div class="footer__logo"><img data-normal="https://digital-cover.fr/app/themes/digitalcover/dist/images/logo/dc-128x128.png" alt="logo digital cover" /></div>
                             <div class="footer__link-wrapper">
-                                <a class="link" href="https://workinframe.com/">Welcome</a>
-                                <a class="link" href="https://workinframe.com/services/">Services</a>
-                                <a class="link" href="https://workinframe.com/contact/">Contact</a>
+                                <a class="link" href="/">Welcome</a>
+                                <a class="link" href="/services/">Services</a>
+                                <a class="link" href="/contact/">Contact</a>
                             </div>
                             <div class="footer__social-networks">
-                                <a aria-label="Work In Frame" href="https://digital-cover.com/" target="_blank" rel="noopener">
+                                <a aria-label="Work In Frame" href="#" target="_blank" rel="noopener">
                                     <img data-normal="https://digital-cover.fr/app/themes/digitalcover/dist/images/svg/map.svg" height="20" />
                                 </a>
                                 <a aria-label="facebook" href="" target="_blank" rel="noopener">
@@ -1838,6 +1837,10 @@ C30.2,22.3,30.5,22.8,30.7,23.3z"
                 </div>
             </footer>
             <script type="text/javascript" id="yasr-global-data-js-extra">
+                function gotoLink(href){
+                    const url = new URL(window.location.href);
+                    window.location.href = url.origin + href;
+                }
                 /* <![CDATA[ */ var yasrCommonData = {
                     siteUrl: "https:\/\/digital-cover.fr\/wp",
                     adminUrl: "https:\/\/digital-cover.fr\/wp\/wp-admin\/",
