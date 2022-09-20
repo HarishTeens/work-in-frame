@@ -26,7 +26,7 @@
 
     const html = `<div id="drag-container">
     <div id="spin-container" style="width: 120px; height: 170px; animation: 60s linear 0s infinite normal none running spinRevert;">
-      <<video controls autoplay loop muted>
+    <video controls autoplay loop muted>
       <source src="https://workinframe.com/videos/portfolio/1.mp4" type="video/mp4">
     </video>
     <img src="https://workinframe.com/videos/portfolio/2.gif"/>
