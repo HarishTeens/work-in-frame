@@ -189,11 +189,12 @@
         }
         }`
 
-    const js = `var radius = 240; // how big of the radius
+    const js = `
+    var radius = 240; // how big of the radius
     var autoRotate = true; // auto rotate or not
     var rotateSpeed = -60; // unit: seconds/360 degrees
-    var imgWidth = 120; // width of images (unit: px)
-    var imgHeight = 170; // height of images (unit: px)
+    var imgWidth = 180; // width of images (unit: px)
+    var imgHeight = 100; // height of images (unit: px)
     
     // ===================== start =======================
     setTimeout(init, 100);
