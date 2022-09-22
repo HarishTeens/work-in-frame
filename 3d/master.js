@@ -29,7 +29,7 @@
     <video controls autoplay loop muted>
       <source src="https://workinframe.com/videos/portfolio/1.mp4" type="video/mp4">
     </video>
-    <img src="https://workinframe.com/videos/portfolio/2.gif"/>
+    <img src="https://workinframe.com/videos/portfolio/2.webm"/>
     <video controls autoplay loop muted>
       <source src="https://workinframe.com/videos/portfolio/3.mp4" type="video/mp4">
     </video>
